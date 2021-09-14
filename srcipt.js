@@ -58,3 +58,5 @@ function game(rounds = 5){
 const playerSelection = 'RocK';
 console.log(singleRound(playerSelection, getComputerSelection()));
 game();
+
+//test
