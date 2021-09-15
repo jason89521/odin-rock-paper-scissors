@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+    background-color: #5d6b79;
+}
+
+i{
+    font-size: 5em;
+}
+
+.score{
+    color: #c6c31d;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score > p{
+    margin: 0;
+}
+
+.round-result{
+    font-size: 2.5em;
+}
+
+.selections{
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+}
+
+.panel{
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    background-color: #aaaaaa;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
